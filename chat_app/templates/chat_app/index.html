@@ -1,0 +1,19 @@
+{% extends 'chat_app/layout.html' %}
+
+{% block title %}Let's Chat{% endblock %}
+
+{% block body %}
+    <h1>ChatAPP</h1>
+    <h5 id="name_display"></h5>
+    <form id="name_form">
+        <input type="text" id="name" placeholder="Name" class="input-field name">
+        <input type="submit" id="submit" value="submit">
+    </form>
+
+    <form id="chat_form">
+        <input type="text" id="message" placeholder="Type here" class="input-field" autofocus>
+        <input type="submit" id="send" value="send">
+    </form>
+
+    <ul id="tasks"></ul>
+{% endblock %}

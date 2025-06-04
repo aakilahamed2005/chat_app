@@ -1,0 +1,36 @@
+.input-field{
+    border: 1px solid #CCC;
+    width: 250px;
+    padding: 10px;
+}
+
+.name{
+    margin-bottom: 20px;
+}
+
+.input-field:focus{
+    border: 1px solid #888;
+    outline: none;
+}
+
+ul{
+    list-style-type: none;
+}
+/*
+#send{
+    width: 75px;
+    padding: 10px;
+    background-color: #222;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#send:hover{
+    background-color: #EEE;
+    color: #222;
+    border: 1px solid #888;
+}
+
+*/
